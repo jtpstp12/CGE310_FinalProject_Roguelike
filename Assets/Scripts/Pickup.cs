@@ -99,7 +99,7 @@ public class Pickup : MonoBehaviour
                 Stamina.Instance.RefreshStamina();
                 break;
             case PickUpType.EXP:  // เพิ่มกรณีนี้เพื่อเก็บ EXP
-                PlayerHealth.Instance.AddEXP(10);  // เพิ่ม EXP ให้กับผู้เล่น
+                PlayerHealth.Instance.AddEXP(15);  // เพิ่ม EXP ให้กับผู้เล่น
                 break;
         }
     }

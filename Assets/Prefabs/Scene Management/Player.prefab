@@ -526,6 +526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69745a7cfa6119b46aa14a8db63c112b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponInfo: {fileID: 0}
+  weaponInfo1: {fileID: 0}
+  weaponInfo2: {fileID: 0}
   currentLevel: 1
   currentEXP: 0
   maxEXP: 100
@@ -534,6 +537,11 @@ MonoBehaviour:
   maxHealth: 3
   knockBackThrustAmount: 10
   damageRecoveryTime: 1
+  timerText: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  gameOverTimeText: {fileID: 0}
+  restartButton: {fileID: 0}
+  mainMenuButton: {fileID: 0}
 --- !u!114 &2358879408617217932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,8 +581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42f478e5dd08aa4c97d98e59976fdde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullStaminaImage: {fileID: 21300000, guid: 28557cb89290e084fa58668f20a6ea4c, type: 3}
-  emptyStaminaImage: {fileID: 21300000, guid: 2c1b20f61e8544749bdec29c7be9d3de, type: 3}
+  staminaSlider: {fileID: 0}
   timeBetweenStaminaRefresh: 3
 --- !u!1 &5651044603791470342
 GameObject:
